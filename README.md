@@ -1,5 +1,7 @@
 # Python EDA — Sample E-Commerce Orders
 
+> **Key finding:** Electronics lead net revenue ($913.79 of $2,131.57), and only 3 of 22 customers ever ordered twice — retention is the open opportunity.
+
 An exploratory data analysis in Python (pandas) over a small sample of
 e-commerce orders: load the file, look at it from several angles, and end
 with plain-language findings instead of just tables.
@@ -41,6 +43,30 @@ where is the obvious opportunity?
    items (Coffee Maker, Winter Jacket) totaling $208.95.
 6. Only 3 of 22 customers ordered more than once — repeat business is the
    clearest growth opportunity in this sample.
+
+## Recommendations / What I would do next
+
+- **Work on repeat business first.** With only 3 of 22 customers ordering
+  more than once, a simple post-purchase follow-up (a thank-you email with
+  a reason to return, or a small second-order incentive) targets the
+  biggest gap in the data. Even a few more repeat customers would move
+  total revenue more than a similar effort spent on new traffic.
+- **Learn from the Store basket.** Store orders average $99.28 vs.
+  $81.34 Online, while Online wins on volume. Look at what Store buyers
+  add to their baskets and test the same bundles or a free-shipping
+  threshold online to close the average-order-value gap.
+- **Protect the concentration risk.** Wireless Headphones alone is
+  $479.94 of $2,131.57 net revenue — over a fifth. Keep it in stock and
+  visible, and build up the next products behind it so one stockout
+  cannot take a fifth of revenue with it.
+- **Check the two returned products.** Returns are rare (2 of 26 orders)
+  but expensive ($208.95, both higher-priced items). Review the Coffee
+  Maker and Winter Jacket product pages — description accuracy, sizing
+  or fit information — before assuming the returns were random.
+- **Keep watching the monthly pattern before calling it seasonality.**
+  February dipped −8.2% and March recovered +12.8%, but on 26 orders
+  that is well within noise. Three more months of the same report would
+  show whether there is a real pattern to plan around.
 
 ## Skills shown
 
